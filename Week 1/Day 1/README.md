@@ -47,3 +47,33 @@ Attributes are defined within the opening tag, after an element’s name. Genera
 <a href="http://shayhowe.com/">Shay Howe</a>
 
 ![Alt text](html-syntax-outline.png)
+
+**Setting Up the HTML Document Structure**
+HTML documents are plain text documents saved with an .html file extension rather than a .txt file extension. To begin writing HTML, you first need a plain text editor that you are comfortable using. Sadly this does not include Microsoft Word or Pages, as those are rich text editors. Two of the more popular plain text editors for writing HTML and CSS are Dreamweaver and Sublime Text. Free alternatives also include Notepad++ for Windows and TextWrangler for Mac.
+
+All HTML documents have a required structure that includes the following declaration and elements: <!DOCTYPE html>, <html>, <head>, and <body>.
+
+The document type declaration, or <!DOCTYPE html>, informs web browsers which version of HTML is being used and is placed at the very beginning of the HTML document. Because we’ll be using the latest version of HTML, our document type declaration is simply <!DOCTYPE html>. Following the document type declaration, the <html> element signifies the beginning of the document.
+
+Inside the <html> element, the <head> element identifies the top of the document, including any metadata (accompanying information about the page). The content inside the <head> element is not displayed on the web page itself. Instead, it may include the document title (which is displayed on the title bar in the browser window), links to any external files, or any other beneficial metadata.
+
+All of the visible content within the web page will fall within the <body> element.
+
+Self-Closing Elements
+In the previous example, the <meta> element had only one tag and didn’t include a closing tag. Fear not, this was intentional. Not all elements consist of opening and closing tags. Some elements simply receive their content or behavior from attributes within a single tag. The <meta> element is one of these elements. The content of the previous <meta> element is assigned with the use of the charset attribute and value. Other common selfclosing elements include
+
+<br><embed><hr><img><input><link><meta><param><source><wbr>
+The structure outlined here, making use of the <!DOCTYPE html> document type and <html>, <head>, and <body> elements, is quite common. We’ll want to keep this document structure handy, as we’ll be using it often as we create new HTML documents.
+
+**To create the first html file**
+**Install editor of choice (There are different types of editor <VsCode/>, <Atom/>, <Notepadd ++ />)
+**then create an html file(i.e an HTML file ends wit .html )
+
+Escape HTML
+Escaping HTML characters in a string means replacing the:
+
+less than symbol (<) with &lt;
+greater than symbol (>) with &gt;
+double quotes (") with &quot;
+single quote (’) with &#39;
+ampersand (&) with &amp;

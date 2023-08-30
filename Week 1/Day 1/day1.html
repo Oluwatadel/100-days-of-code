@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>100 days of coding</h1>
+        <h2>Start date: 28th of August, 2023</h2>
+    </header>
+    <section>
+        <fieldset>
+            <legend><h3>What Are HTML & CSS?</h3></legend>
+            
+            <p>HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images. CSS, or Cascading Style Sheets, is a presentation language created to style the appearance of content—using, for example, fonts or colors.
+          
+                The two languages—HTML and CSS—are independent of one another and should remain that way. CSS should not be written inside of an HTML document and vice versa. As a rule, HTML will always represent content, and CSS will always represent the appearance of that content.
+                
+                With this understanding of the difference between HTML and CSS, let &#39s dive into HTML in more detail.
+            </p>
+        </fieldset>
+          
+        <h3>Understanding Common HTML Terms</h3>
+          While getting started with HTML, you will likely encounter new—and often strange—terms. Over time you will become more and more familiar with all of them, but the three common HTML terms you should begin with are elements, tags, and attributes.
+          
+          <h3>Elements</h3>
+          <br/>Elements are designators that define the structure and content of objects within a page. Some of the more frequently used elements include multiple levels of headings (identified as &lth1&gt through &lth6&gt elements) and paragraphs (identified as the &ltp> element); the list goes on to include the &lta>, &ltdiv>, &ltspan>, &ltstrong>, and &ltem> elements, and many more.
+          
+          Elements are identified by the use of less-than and greater-than angle brackets,  &lt  &gt, surrounding the element name.
+          
+        <h3>Tags</h3>
+          The use of less-than and greater-than angle brackets surrounding an element creates what is known as a tag. Tags most commonly occur in pairs of opening and closing tags.
+          
+          An opening tag marks the beginning of an element. It consists of a less-than sign followed by an element&#39s name, and then ends with a greater-than sign; for example, <div>.
+          
+          A closing tag marks the end of an element. It consists of a less-than sign followed by a forward slash and the element&#39s name, and then ends with a greater-than sign; for example, </div>.
+          
+          The content that falls between the opening and closing tags is the content of that element. An anchor link, for example, will have an opening tag of <a> and a closing tag of </a>. What falls between these two tags will be the content of the anchor link.
+          
+          So, anchor tags will look a bit like this:
+          
+          &lta&gt...&lt/a&gt
+          
+          <h3>Attributes</h3>
+          Attributes are properties used to provide additional information about an element. The most common attributes include the id attribute, which identifies an element; the class attribute, which classifies an element; the src attribute, which specifies a source for embeddable content; and the href attribute, which provides a hyperlink reference to a linked resource.
+          
+          Attributes are defined within the opening tag, after an element&39s name. Generally attributes include a name and a value. The format for these attributes consists of the attribute name followed by an equals sign and then a quoted attribute value. For example, an <a> element including an href attribute would look like the following:
+          
+          <a href="http://shayhowe.com/">Shay Howe</a>
+          
+          <!--![Alt text](html-syntax-outline.png)-->
+          
+          <h3>Setting Up the HTML Document Structure</h3>
+          HTML documents are plain text documents saved with an .html file extension rather than a .txt file extension. To begin writing HTML, you first need a plain text editor that you are comfortable using. Sadly this does not include Microsoft Word or Pages, as those are rich text editors. Two of the more popular plain text editors for writing HTML and CSS are Dreamweaver and Sublime Text. Free alternatives also include Notepad++ for Windows and TextWrangler for Mac.
+          
+          All HTML documents have a required structure that includes the following declaration and elements: <!DOCTYPE html>, <html>, <head>, and <body>.
+          
+          The document type declaration, or <!DOCTYPE html>, informs web browsers which version of HTML is being used and is placed at the very beginning of the HTML document. Because we&#39ll be using the latest version of HTML, our document type declaration is simply <!DOCTYPE html>. Following the document type declaration, the <html> element signifies the beginning of the document.
+          
+          Inside the <html> element, the <head> element identifies the top of the document, including any metadata (accompanying information about the page). The content inside the <head> element is not displayed on the web page itself. Instead, it may include the document title (which is displayed on the title bar in the browser window), links to any external files, or any other beneficial metadata.
+          
+          All of the visible content within the web page will fall within the <body> element. 
+          
+          <h3>Self-Closing Elements</h3>
+          In the previous example, the <meta> element had only one tag and didn&#39t include a closing tag. Fear not, this was intentional. Not all elements consist of opening and closing tags. Some elements simply receive their content or behavior from attributes within a single tag. The <meta> element is one of these elements. The content of the previous <meta> element is assigned with the use of the charset attribute and value. Other common selfclosing elements include
+          <ul>
+            <li>&ltbr></li>
+            <li>&ltembed></li>
+            <li>&lthr></li>
+            <li>&ltimg></li>
+            <li>&ltinput></li>
+            <li>&ltlink></li>
+            <li>&ltmeta></li>
+            <li>&ltparam></li>
+            <li>&ltsource></li>
+            <li>&ltwbr></li>
+          </ul>
+          
+          The structure outlined here, making use of the <!DOCTYPE html> document type and <html>, <head>, and <body> elements, is quite common. We&#39ll want to keep this document structure handy, as we&#39ll be using it often as we create new HTML documents.
+          </p>
+        <h3>To create the first html file</h3>
+        <ol>
+          <li>Install editor of choice (There are different types of editor <VsCode/>, <Atom/>, <Notepadd ++ />)</li>
+          <li>Then create an html file(i.e an HTML file ends wit .html )</li>
+        </ol>
+    </section>
+    
+    
+</body>
+</html>
